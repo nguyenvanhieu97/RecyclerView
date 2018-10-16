@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
 		setContentView(R.layout.activity_main);
 		RecyclerView recyclerView = (RecyclerView)findViewById(R.id.recyclerView);
 		RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
-		RecyclerView.Adapter adapter = new MyAdapter();
+		RecyclerView.Adapter adapter = new HeroAdapter();
 		recyclerView.setLayoutManager(layoutManager);
 		recyclerView.setAdapter(adapter);
 	}
